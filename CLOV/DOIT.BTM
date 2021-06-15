@@ -1,0 +1,8 @@
+@echo off
+
+do i = 0 to 15
+ set w1=%i
+ if %w1 LT 10 set w1=0%w1
+ povray /NoBreak /x:320 /y:200 /a:.3 /Clock=%i r4 r4_%w1%.tga
+enddo
+

@@ -1,0 +1,96 @@
+#include "colors.inc"  
+#include "shapes.inc"  
+#include "shapes2.inc"  
+#include "textures.inc"
+#include "stones1.inc"
+#include "Glass.inc"
+
+/***************************************************************************/
+/***************************************************************************/
+/***************************************************************************/
+
+camera 
+   {
+   location  <0,   2,   -4>
+   direction <0.0, 0.0, 2>
+   up        <0.0, 1.0, 0>
+   right     <4/3, 0.0, 0>
+   look_at   <0,   0,   0>
+   }
+
+light_source { <50, 80, -20.0> colour White }
+light_source { <-5, -20, -80.0> colour White }
+
+
+// Sky
+sphere 
+   { <0, 0, 0>, 1
+   texture 
+      {
+      pigment 
+         {
+         gradient y
+         color_map {[0, 1 color White color SkyBlue]}
+         }
+      finish {ambient 1 diffuse 0}
+      }
+   scale 100000
+   }
+
+plane
+   {
+   y, -3
+   texture 
+      {
+      normal  
+         { 
+         quilted 1 
+         }
+      pigment 
+         { 
+         checker color SkyBlue color White 
+         }
+      finish  
+         {
+         specular 1 roughness 0.001
+         reflection .7
+         }
+      scale <2, 2, 2>
+      }
+   }
+
+sphere
+   {
+   <0, 0, 0>, 1
+   texture
+      {
+      Glass
+//      finish {ambient 1}
+      pigment 
+         { 
+         image_map 
+            { 
+            gif "AA-3.gif"  map_type 1
+            filter all 1
+//            transmit all .5
+            }
+         }
+      }
+   rotate <0, -clock * 360, 0>
+   }
+
+
+//plane
+//   {
+//   z, 0
+//   texture
+//      {
+//      finish {ambient 1}
+//      pigment { image_map { gif "AA-3.gif"  } }
+//      scale <4, 4, 4>
+//      }
+//   rotate <90, 0, 0>
+//   translate <0, -3, 0>
+//   }
+
+

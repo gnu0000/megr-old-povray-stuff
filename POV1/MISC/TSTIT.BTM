@@ -1,0 +1,60 @@
+povray /x:320 /y:200 /a:1 3d1.pov @delta=0 @rot=0 left1
+povray /x:320 /y:200 /a:1 3d1.pov @delta=2 @rot=0 right1
+povray /x:320 /y:200 /a:1 3d1.pov @delta=0 @rot=45 left2
+povray /x:320 /y:200 /a:1 3d1.pov @delta=2 @rot=45 right2
+povray /x:320 /y:200 /a:1 3d1.pov @delta=0 @rot=90 left3
+povray /x:320 /y:200 /a:1 3d1.pov @delta=2 @rot=90 right3
+
+povray /x:320 /y:200 /a:1 3d1.pov @delta=0 @rot=135 left4
+povray /x:320 /y:200 /a:1 3d1.pov @delta=2 @rot=135 right4
+
+povray /x:320 /y:200 /a:1 3d1.pov @delta=0 @rot=180 left5
+povray /x:320 /y:200 /a:1 3d1.pov @delta=2 @rot=180 right5
+
+povray /x:320 /y:200 /a:1 3d1.pov @delta=0 @rot=225 left6
+povray /x:320 /y:200 /a:1 3d1.pov @delta=2 @rot=225 right6
+
+povray /x:320 /y:200 /a:1 3d1.pov @delta=0 @rot=270 left7
+povray /x:320 /y:200 /a:1 3d1.pov @delta=2 @rot=270 right7
+
+povray /x:320 /y:200 /a:1 3d1.pov @delta=0 @rot=315 left8
+povray /x:320 /y:200 /a:1 3d1.pov @delta=2 @rot=315 right8
+
+
+
+
+povray /x:320 /y:200 /a:1 3d1.pov @delta=0 @rot=0+15 aleft1
+povray /x:320 /y:200 /a:1 3d1.pov @delta=2 @rot=0+15 aright1
+povray /x:320 /y:200 /a:1 3d1.pov @delta=0 @rot=45+15 aleft2
+povray /x:320 /y:200 /a:1 3d1.pov @delta=2 @rot=45+15 aright2
+povray /x:320 /y:200 /a:1 3d1.pov @delta=0 @rot=90+15 aleft3
+povray /x:320 /y:200 /a:1 3d1.pov @delta=2 @rot=90+15 aright3
+povray /x:320 /y:200 /a:1 3d1.pov @delta=0 @rot=135+15 aleft4
+povray /x:320 /y:200 /a:1 3d1.pov @delta=2 @rot=135+15 aright4
+povray /x:320 /y:200 /a:1 3d1.pov @delta=0 @rot=180+15 aleft5
+povray /x:320 /y:200 /a:1 3d1.pov @delta=2 @rot=180+15 aright5
+povray /x:320 /y:200 /a:1 3d1.pov @delta=0 @rot=225+15 aleft6
+povray /x:320 /y:200 /a:1 3d1.pov @delta=2 @rot=225+15 aright6
+povray /x:320 /y:200 /a:1 3d1.pov @delta=0 @rot=270+15 aleft7
+povray /x:320 /y:200 /a:1 3d1.pov @delta=2 @rot=270+15 aright7
+povray /x:320 /y:200 /a:1 3d1.pov @delta=0 @rot=315+15 aleft8
+povray /x:320 /y:200 /a:1 3d1.pov @delta=2 @rot=315+15 aright8
+
+
+
+povray /x:320 /y:200 /a:1 3d1.pov @delta=0 @rot=0+30 bleft1
+povray /x:320 /y:200 /a:1 3d1.pov @delta=2 @rot=0+30 bright1
+povray /x:320 /y:200 /a:1 3d1.pov @delta=0 @rot=45+30 bleft2
+povray /x:320 /y:200 /a:1 3d1.pov @delta=2 @rot=45+30 bright2
+povray /x:320 /y:200 /a:1 3d1.pov @delta=0 @rot=90+30 bleft3
+povray /x:320 /y:200 /a:1 3d1.pov @delta=2 @rot=90+30 bright3
+povray /x:320 /y:200 /a:1 3d1.pov @delta=0 @rot=135+30 bleft4
+povray /x:320 /y:200 /a:1 3d1.pov @delta=2 @rot=135+30 bright4
+povray /x:320 /y:200 /a:1 3d1.pov @delta=0 @rot=180+30 bleft5
+povray /x:320 /y:200 /a:1 3d1.pov @delta=2 @rot=180+30 bright5
+povray /x:320 /y:200 /a:1 3d1.pov @delta=0 @rot=225+30 bleft6
+povray /x:320 /y:200 /a:1 3d1.pov @delta=2 @rot=225+30 bright6
+povray /x:320 /y:200 /a:1 3d1.pov @delta=0 @rot=270+30 bleft7
+povray /x:320 /y:200 /a:1 3d1.pov @delta=2 @rot=270+30 bright7
+povray /x:320 /y:200 /a:1 3d1.pov @delta=0 @rot=330+30 bleft8
+povray /x:320 /y:200 /a:1 3d1.pov @delta=2 @rot=330+30 bright8

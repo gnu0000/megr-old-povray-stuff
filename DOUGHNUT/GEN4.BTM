@@ -1,0 +1,12 @@
+@echo off
+do i = 0 to 35 
+set w1=%i
+set w2=%@eval[(%i+18)%%36]
+if %w1 LT 10 set w1=0%w1
+if %w2 LT 10 set w2=0%w2
+
+copy da%w1%0.gif wall1.gif
+copy da%w2%0.gif wall2.gif
+povray /NoBreak /x:640 /y:480 /a:.25 /Clock=%w1%0 donut4.pov d%w1%0.tga
+
+enddo

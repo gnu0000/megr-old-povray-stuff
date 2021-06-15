@@ -1,0 +1,2 @@
+povray /x:640 /y:480 /a:.25 /Frames=250 ebs2a /nobreak /FrameStart=100
+povray /x:640 /y:480 /a:.25 /Frames=250 ebs2a /nobreak /FrameEnd=99

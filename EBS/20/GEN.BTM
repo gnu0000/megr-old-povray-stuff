@@ -1,0 +1,8 @@
+@echo off
+timer
+do i = 1 to 100
+if %i LT 10  set i=0%i
+if %i LT 100 set i=0%i
+povray /x:320 /y:200 /a:.25 /NoBreak /Buf:32 /Clock=%i ebs out%i
+enddo
+timer

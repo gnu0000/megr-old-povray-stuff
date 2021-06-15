@@ -1,0 +1,63 @@
+#include "colors.inc"  
+#include "textures.inc"
+#include "stones1.inc"
+
+
+#declare L_Rad1 = (3+1/8)/2
+#declare L_Rad2 = L_Rad1 - 3/16
+
+#declare L_Wing = intersection
+   {
+   sphere 
+      {<0, 0, 0> L_Rad1}
+   box
+      {<1/8, 1/8, -L_Rad1> <L_Rad1, L_Rad1, L_Rad1>}
+   box
+      {<0, 0, -L_Rad1> <1/2, 1/2, L_Rad1> inverse}
+   texture
+      {T_Stone23}
+   }
+
+#declare L_Inside = intersection
+   {
+   sphere 
+      {<0, 0, 0> L_Rad1}
+   object 
+      {L_Wing inverse}
+   texture
+      {
+      pigment {color HuntersGreen}
+      finish {phong 1.0 phong_size 90}  // tint to liking
+      }
+
+   }
+
+
+#declare Transport_Logo = union
+   {
+   object {L_Inside}
+   object {L_Wing rotate <0, 0, 0> translate <5/16, 5/16, 0>}
+   object {L_Wing rotate <0, 0, 90>  }
+   object {L_Wing rotate <0, 0, 180> }
+   object {L_Wing rotate <0, 0, 270> }
+   }
+
+/********************************************************************/
+
+
+camera 
+   {
+   location  <.5,  .8, -5>
+   direction <0.0, 0.0, 1.6>
+   up        <0.0, 1.0, 0>
+   right     <8/5, 0.0, 0>
+   look_at   <0,   0,   0>
+   }
+
+light_source { <1, 5, -50.0> colour White }
+light_source { <50, 80, -20.0> colour White }
+light_source { <-50, 15, -10.0> colour White }
+
+
+
+object {Transport_Logo}

@@ -1,0 +1,72 @@
+     -$:  Conserve memory {4-2}
+     -x:  Display image stats {4-3}
+     -.:  Do not append suffix to output file name {4-4}
+     -h:  Display help screen {4-5}
+     -o:  Overwrite existing file {4-6}
+     -?:  Display program information {4-7}
+     -q:  Quiet (no status messages) {4-8}
+     --:  Enable wildcard mode {4-9}
+
+     -a:  convert to TARGA file {3-52}
+     -A:  convert to PCPAINT/Pictor {3-34}
+    --a:  convert to AutoLogic file {3-6}
+    --A:  convert to ADEX file {3-5}
+     -B:  convert to Binary file {3-7, Appendix E}
+    --b:  convert to XBM file {3-60}
+    --D:  convert to QDV file {3-42}
+     -e:  convert to Encapsulated PostScript file {3-9}
+    --e:  convert to Erdas Image file {3-11}
+    --f:  convert to Freedom of the Press file {3-13}
+     -g:  convert to GIF file {3-16}
+    --g:  convert to Gem VDI Image file {3-15}
+     -i:  convert to IFF/ILBM file {3-27}
+    --I:  convert to Vivid IMG file {3-56}
+     -j:  convert to JPEG/JFIF file {3-28, Appendix C}
+    --j:  convert to HSI JPEG {3-24}
+    --J:  convert to Jovian VI {3-31}
+     -k:  convert to PBM file {3-39}
+     -K:  convert to Stork file {3-46}
+     -l:  convert to HSI PALette file {3-25, Appendix H} 
+     -m:  convert to Macintosh PICT2 file {3-22}
+    --M:  convert to MTV Ray Tracer file {3-33}
+     -n:  convert to Silicon Graphics Image file {3-45}
+     -p:  convert to PCX file {3-36}
+     -P:  convert to HP PCL file {3-18}
+    --q:  convert to Q0 file {3-41}
+     -r:  convert to HSI Raw file {3-26, Appendix F}
+    --r:  convert to HP RTL file {3-21}
+     -s:  convert to Sun Raster file {3-48}
+    --s:  convert to Scodl file {3-44}
+     -t:  convert to TIFF file {3-50}
+    --T:  convert to QRT file {3-43}
+    --u:  convert to Utah Raster Toolkit (RLE) file {3-54}
+     -w:  convert to Windows Bitmap (BMP) file {3-57}
+     -W:  convert to WordPerfect Graphic file {3-59}
+    --w:  convert to XWD file {3-62}
+
+     -8:  write out a paletted file (up to 8 bits per pixel) {5-11}
+     -15: write out a true colour file (15 bits per pixel) {5-16}
+     -16: write out a true colour file (16 bits per pixel) {5-17}
+     -24: write out a true colour file (24 bits per pixel) {5-18}
+     -32: write out a true colour file (32 bits per pixel) {5-19}
+     -b:  convert image to black and white {5-2}
+     -c[0..256]:  create an image with specified palette size {5-3}
+     -C[filename]:  use undercolour removal file {5-20, Appendix G}
+     -d[type]:  dither output image using specified algorithm {5-5}
+     -E:  optimize output image quality for display on EGA display {5-7}
+     -f[filename]:  read palette from file {5-9}
+     -F[filename]:  use false colour palette from file {5-8}
+     -G[iop][gamma]:  specify gamma of input image, output image or palette
+     -S[type]:  spiff image {5-15}
+     -u:  use uniform palette {5-21}
+     -z:  change palette selection, sorting, and swapping {5-13}
+
+     -+:   preserve aspect ratio {6-2}
+     -X[type]n:  scale image to new horizontal size {6-4}
+     -Y[type]n:  scale image to new vertical size {6-6}
+     -Dn:   specify aspect ratio {6-7}
+     -Dn n: specify image resolution in DPI {6-9}
+
+     -v[resolution]:  view image on 8 bit display {7-4}
+     -V[resolution]:  reduce image to fix screen and view {7-6}
+    --v:  view image on true colour display {7-5}
